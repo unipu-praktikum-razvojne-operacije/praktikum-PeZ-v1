@@ -1,0 +1,14 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.2.0, pluggy-1.7.0 -- /home/unkno/Projects/praktikum-PeZ-v1/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/unkno/Projects/praktikum-PeZ-v1
+collecting ... collected 6 items
+
+tests/test_ollama_client.py::test_build_messages_puts_system_prompt_first PASSED [ 16%]
+tests/test_ollama_client.py::test_list_models_returns_model_names PASSED [ 33%]
+tests/test_ollama_client.py::test_generate_sends_model_and_prompt_without_streaming PASSED [ 50%]
+tests/test_ollama_client.py::test_chat_returns_assistant_message_content PASSED [ 66%]
+tests/test_ollama_client.py::test_generate_raises_ollama_error_when_server_is_down PASSED [ 83%]
+tests/test_ollama_client.py::test_real_model_answers PASSED              [100%]
+
+============================== 6 passed in 0.11s ===============================
